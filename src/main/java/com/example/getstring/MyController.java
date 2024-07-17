@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MyController {
 
-    @GetMapping("/")
+    @GetMapping("/hello")
     public String getString() {
-        return "Welcome to Spring Boot";
+        return "Welcome to Spring Bootggg";
     }
 }
